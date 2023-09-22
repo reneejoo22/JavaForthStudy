@@ -22,6 +22,7 @@ public class CircleArray {
 		
 		for(int i = 0; i<c.length; i++) {
 			System.out.println((int)(c[i].getArea())+"");
+			//c.getArray()   이렇게는 못씀. 배열이니까
 		}
 	}
 }
